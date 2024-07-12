@@ -1,7 +1,8 @@
 import React from "react";
+import Router from "./routes/Router";
 
 function App() {
-  return <div className="text-3xl font-bold underline">hello</div>;
+  return <Router />;
 }
 
 export default App;
